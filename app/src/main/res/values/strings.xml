@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name" translatable="false">TinderPets</string>
+
+    <!--Str--> Раздел текста loginActivity layout <!--Str-->
+
+    <string name="main_label">Создать аккаунт</string>
+    <string name="email_hint" translatable="false">pettinder@pettinder.com</string>
+    <string name="number_hint" translatable="false">+7 999 999 99 99</string>
+    <string name="password_hint" translatable="false">********</string>
+    <string name="register_btn">Регистрация</string>
+
+    <!--Str--> Раздел текста loginActivity layout <!--Str-->
+
+    <string name="main_label_login">Войдите в аккаунт</string>
+
+    <string name="login_btn">Войти</string>
+    <string name="switchReg" translatable="false">Зарегестрироваться</string>
+    <string name="SwitchToLogin" translatable="false">Войти</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="singOut" translatable="false">Выйти из аккаунта</string>
+
+</resources>

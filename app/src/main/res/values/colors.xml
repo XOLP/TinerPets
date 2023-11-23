@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="darkThemeColorBtnReg">#ba8e09</color>
+    <color name="darkThemeColorBackground">#ddffd0</color>
+    <color name="darkThemeColorMain">#020202</color>
+    <color name="darkThemeColorHints">#919193</color>
+</resources>

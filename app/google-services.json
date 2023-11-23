@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "467750970159",
+    "firebase_url": "https://pettinder-99ef5-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "pettinder-99ef5",
+    "storage_bucket": "pettinder-99ef5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467750970159:android:59598073d9f1e130c077da",
+        "android_client_info": {
+          "package_name": "com.example.tinerpets"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp8FlXA_Q5meDt-tubLW-kT-Bp3I0Xw9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
