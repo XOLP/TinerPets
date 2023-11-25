@@ -4,10 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#8888"
     tools:context=".fragmentsNavMenu.CreatePetActivity">
 
 
     <TextView
+        android:id="@+id/textviewtest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
@@ -17,6 +19,47 @@
         android:text="Создать карточку"
         android:layout_marginTop="20dp"/>
 
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/idViewPager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textviewtest"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
 
+        android:layout_marginBottom="10dp"
+        android:background="#8000"/>
+
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:scrollbars="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:fillViewport="true">
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:background="#8888"
+        android:text="Описание — композиционная форма, которую используют в литературоведении и лингвистике для подробной характеристики предметов или явлений.
+
+Обобщенно, объекты описания представляют собой перцептивные паттерны - качества (формы, направления, цвет, звук, вес, температуру и т.д.), количественные аспекты (меры и множества) и их отношения, более конкретно - это предметы, процессы, жизнь, характер людей и мн. др. объекты живой, неживой природы и сами субъективные переживания.
+
+Комплексный предмет/явление образует в сознании субъекта абстрактный смысловой тип, используемый им в дальнейшем для описания.
+
+Для этой композиционной формы, в числе прочего, характерно изображение пространственных отношений, в котором также отображается пространственное соотношение элементов предмета. Это придает описанию визуальную наглядность, реализуемую применением языковых средств для описания пространства — наречий места, пространственных обозначений, данных направлений, расстояний, форм, а также соответствующих прилагательных.
+
+Описание всегда следует за временем наблюдения объекта, в общей цепи состоящей из акта восприятия, воспоминания, представления, осмысления и формулировки в доступных языковых терминах. Т.о. описание - это продукт мыслительной переработки целостного образа сцены/ситуации, субъективная знаковая интерпретация фрагмента действительности.
+
+Отдельный предмет или явление может отображаться в любом времени (прошедшем - воспоминания, настоящем - наблюдение, будущем - представление) с использованием типичных и/или неординарных лингвистических средств.
+
+С точки зрения языкознания описание — один из типов речи, рассказ о свойствах (признаках, качествах, характеристиках) определённого предмета или явления. " />
+    </ScrollView>
 
 </RelativeLayout>
